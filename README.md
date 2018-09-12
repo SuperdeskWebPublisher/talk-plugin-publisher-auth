@@ -1,0 +1,1 @@
+# talk-plugin-publisher-auth
