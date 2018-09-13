@@ -20,7 +20,7 @@ TALK_JWT_SECRET={
     "public": "-----BEGIN PUBLIC KEY-----\\LINE1\\nLINE2\\nLINEX\\n-----END PUBLIC KEY-----\\n",
     "private": "-----BEGIN RSA PRIVATE KEY-----\\nLINE1\\nLINE2\\nLINEX\\n-----END RSA PRIVATE KEY-----\\n"
     }
-PUBLISHER_API_URL=https://domain.com/api/v1/
+TALK_PUBLISHER_API_URL=https://domain.com/api/v1/
 
 ```
 note that `TALK_JWT_SECRET` certificates must have their newlines replaced with `\\n`
