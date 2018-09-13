@@ -1,0 +1,9 @@
+{
+    "name": "@superdeskwebpublisher/talk-plugin-publisher-auth",
+    "pluginName": "talk-plugin-publisher-auth",
+    "version": "0.0.1",
+    "description": "Handles SSO authorization with Superdesk Publisher",
+    "main": "index.js",
+    "author": "Tomasz Rondio <tomasz.rondio@sourcefabric.org>",
+    "license": "AGPL-3.0"
+  }
