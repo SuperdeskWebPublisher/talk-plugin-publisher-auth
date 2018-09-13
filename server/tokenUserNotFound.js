@@ -7,7 +7,7 @@ module.exports = { tokenUserNotFound: async ({jwt, token}) => {
     Authorization: 'Bearer ' + token
   }
 
-  let response = await fetch( process.env.TALK_JWT_PUBLISHER_API_URL + 'users/profile/' + jwt.sub, {method: 'GET', headers: headers});
+  let response = await fetch( process.env.PUBLISHER_API_URL + 'users/profile/' + jwt.sub, {method: 'GET', headers: headers});
   let profile  = await response.json();
   let user = await UserModel.findOneAndUpdate(
     {
